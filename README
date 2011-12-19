@@ -1,0 +1,15 @@
+Sogou Map has provided web api to translate gps, google china map coordinate, baidu map coordinate into sogou map coordinate.
+
+For detailed specification, please refers to:
+    http://map.sogou.com/api/documentation/javascript/api2.0/interface_translate.html
+
+
+For given two sets of coordinates, taking gps and sogou map for example, by the translation api we can get the sogou map coordinate for any given gps location, but how can we get the reverse translation? If we have plenty of mappings from gps to sogou, then by interpolation we might be able to get the reverse translation.
+
+As describe above, we are able to make the mapping between gps and sogou, google and sogou, baidu and sogou, and the reverse. So we are able to make the mapping between any of the two map coordinate systems.
+
+
+For some reasons, I choose to keep the mapping data files off the git repositary, which are named Sogou2Wgs.txt and Gps2Sogou.txt, in fear of violating the the law so called threaten national security. 
+
+But for anyone, who is really interested in the data, you can either crawler the data from map.sogou.com by yourself, or ask from me via wfxiang@gmail.com
+
